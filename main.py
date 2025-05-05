@@ -46,11 +46,12 @@ class ElectionCaller:
             (self.voter_per_station / self.sample_count) * 
             (p * (1 - p)) / N
         ) ** 0.5 #((p*(1-p)) / (100*(N/2600)))**0.5
-        return st.norm.interval(
+        ci: tuple[float, float] = st.norm.interval(
             confidence=self.conf_lvl,
             loc=p,
             scale=sigma
         )
+        return (float(round(ci[0], 2)), float(round(ci[1], 2)))
 
     def predict(self, ci_pap: tuple[float, float], ci_bestopp: tuple[float, float]) -> str:
         """
@@ -89,9 +90,9 @@ class ElectionCaller:
         results = self.data[['Constituency', 'Predicted Result', 'Confidence Interval PAP', 'Confidence Interval Best Opposition']]
         
         # Print results
-        self._print_seat_summary(results)
+        self._export_seat_summary(results)
     
-    def _print_seat_summary(self, results: pd.DataFrame) -> None:
+    def _export_seat_summary(self, results: pd.DataFrame) -> None:
         """Print summary of seat distribution."""
         seats = {
             'PAP': self.data[self.data['Predicted Result'] == 'PAP']['Seats'].sum(),
@@ -100,10 +101,21 @@ class ElectionCaller:
         }
 
         print("Election Results Summary:")
-        print(f"Confidence: {int(self.conf_lvl * 100)}%")
-        print(results)
+
+        output = []
+        output.append(f"# Election Results Summary\n")
+        output.append(f"Confidence Level: {int(self.conf_lvl * 100)}%\n")
+        output.append("\n## Detailed Results\n")
+        output.append(results.to_markdown(index=False))
+        output.append("\n## Seat Distribution\n")
         for party, count in seats.items():
-            print(f"Number of seats won by {party}: {count}")
+            output.append(f"- {party}: {count} seats\n")
+        
+        # Write to README.md
+        with open('README.md', 'w') as f:
+            f.writelines(output)
+
+        
 
 if __name__ == "__main__":
     

@@ -1,0 +1,29 @@
+name: Run main.py
+
+on:
+    push:
+        branches: [ "main" ]
+    pull_request:
+        branches: [ "main" ]
+
+permissions:
+    contents: write  # Changed to write to allow commits
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        steps:
+        - uses: actions/checkout@v4
+        - name: Set up Python 3.10
+          uses: actions/setup-python@v3
+          with:
+              python-version: "3.10"
+        - name: Install dependencies
+          run: |
+              if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        - name: Run main script
+          run: |
+              python main.py
+        - uses: stefanzweifel/git-auto-commit-action@v5
+
