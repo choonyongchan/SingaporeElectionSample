@@ -1,0 +1,5 @@
+filepath: data.csv
+turnout: 0.93
+confidence: 0.95
+voter_per_station: 1700
+sample_count: 100
