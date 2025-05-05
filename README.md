@@ -1,6 +1,6 @@
 # Election Results Summary
 Confidence Level: 95%
-
+[![Run main.py](https://github.com/choonyongchan/SingaporeElectionSample/actions/workflows/run.yml/badge.svg)](https://github.com/choonyongchan/SingaporeElectionSample/actions/workflows/run.yml)
 ## Detailed Results
 | Constituency                       | Predicted Result   | Confidence Interval PAP   | Confidence Interval Best Opposition   |
 |:-----------------------------------|:-------------------|:--------------------------|:--------------------------------------|

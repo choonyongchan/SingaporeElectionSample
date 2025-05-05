@@ -105,7 +105,8 @@ class ElectionCaller:
         output = []
         output.append(f"# Election Results Summary\n")
         output.append(f"Confidence Level: {int(self.conf_lvl * 100)}%\n")
-        output.append("\n## Detailed Results\n")
+        output.append("[![Run main.py](https://github.com/choonyongchan/SingaporeElectionSample/actions/workflows/run.yml/badge.svg)](https://github.com/choonyongchan/SingaporeElectionSample/actions/workflows/run.yml)\n")
+        output.append("## Detailed Results\n")
         output.append(results.to_markdown(index=False))
         output.append("\n## Seat Distribution\n")
         for party, count in seats.items():
