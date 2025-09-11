@@ -79,9 +79,15 @@ Under these assumptions, the estimator simplifies to an equal-weight average of 
 
 $$
 \hat p
-= \frac{1}{N} \sum_{h=1}^L N_h \hat p_h \\\\
-= \frac{1}{N} \sum_{h=1}^L \frac{N}{L} \hat p \\\\
-= \frac{1}{N} L \frac{N}{L} \hat p \\\\
+= \frac{1}{N} \sum_{h=1}^L N_h \hat p_h
+$$
+$$
+= \frac{1}{N} \sum_{h=1}^L \frac{N}{L} \hat p
+$$
+$$
+= \frac{1}{N} L \frac{N}{L} \hat p 
+$$
+$$
 = \hat p
 $$
 
@@ -89,10 +95,18 @@ Since each stratum has the same sample proportion, i.e., $\hat p_h = \hat p$ for
 
 $$
 s_{\hat p}^2 
-= \sum_{h=1}^L \left(\frac{N_h}{N}\right)^2 \left(\frac{N_h - n_h}{N_h - 1}\right) \frac{s_h^2}{n_h} \\\\
-= \sum_{h=1}^L \left(\frac{1}{L^2}\right) \left(\frac{N - L n}{N - L}\right) \frac{s^2}{n} \\\\
-= L \left(\frac{1}{L^2}\right) \left(\frac{N - L n}{N - L}\right) \frac{s^2}{n} \\\\
-= \frac{N- L n}{L (N-L) n} s^2 \\\\
+= \sum_{h=1}^L \left(\frac{N_h}{N}\right)^2 \left(\frac{N_h - n_h}{N_h - 1}\right) \frac{s_h^2}{n_h}
+$$
+$$
+= \sum_{h=1}^L \left(\frac{1}{L^2}\right) \left(\frac{N - L n}{N - L}\right) \frac{s^2}{n}
+$$
+$$
+= L \left(\frac{1}{L^2}\right) \left(\frac{N - L n}{N - L}\right) \frac{s^2}{n}
+$$
+$$
+= \frac{N- L n}{L (N-L) n} s^2
+$$
+$$
 = \frac{N- L n}{L (N-L) n} \hat p(1-\hat p)
 $$
 
@@ -102,7 +116,9 @@ For proportions, recall that $s^2 = \hat p (1-\hat p)$ or the average of $\hat p
 By the Central Limit Theorem, $\hat p$ is approximately Normal for moderate-to-large $L$ and $n$. A 95% confidence interval for the constituency proportion is
 
 $$
-\hat p \pm z_{0.975} \sqrt{s_{\hat p}^2}, \\\\
+\hat p \pm z_{0.975} \sqrt{s_{\hat p}^2},
+$$
+$$
  \text{where } z_{0.975} \approx 1.96.
 $$
 
