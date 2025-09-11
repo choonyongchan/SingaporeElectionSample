@@ -1,0 +1,311 @@
+sample_count: 100
+confidence_interval: 0.95
+turnout_rate: 0.938714286 # Mean turnout rate across GE2006, GE2011, GE2015, GE2020, GE2025, PE2011, PE2023. Assume similar turnout rate for future elections.
+constituencies:
+  - name: "Aljunied GRC"
+    seats: 5
+    polling_stations: 67
+    registered_voters: 144276
+    parties:
+      - name: PAP
+        sample_count: 41
+      - name: WP
+        sample_count: 59
+  - name: "Ang Mo Kio GRC"
+    seats: 5
+    polling_stations: 74
+    registered_voters: 61494
+    parties:
+      - name: PAP
+        sample_count: 79
+      - name: PPP
+        sample_count: 10
+      - name: SUP
+        sample_count: 11
+  - name: "Bishan–Toa Payoh GRC"
+    seats: 4
+    polling_stations: 48
+    registered_voters: 98679
+    parties:
+      - name: PAP
+        sample_count: 75
+      - name: SPP
+        sample_count: 25
+  - name: "Chua Chu Kang GRC"
+    seats: 4
+    polling_stations: 41
+    registered_voters: 93512
+    parties:
+      - name: PAP
+        sample_count: 63
+      - name: PSP
+        sample_count: 37
+  - name: "East Coast GRC"
+    seats: 5
+    polling_stations: 52
+    registered_voters: 151024
+    parties:
+      - name: PAP
+        sample_count: 59
+      - name: WP
+        sample_count: 41
+  - name: "Holland–Bukit Timah GRC"
+    seats: 4
+    polling_stations: 54
+    registered_voters: 123169
+    parties:
+      - name: PAP
+        sample_count: 80
+      - name: RDU
+        sample_count: 20
+  - name: "Jalan Besar GRC"
+    seats: 4
+    polling_stations: 52
+    registered_voters: 106327
+    parties:
+      - name: PAP
+        sample_count: 75
+      - name: PAR
+        sample_count: 25
+  - name: "Jurong East–Bukit Batok GRC"
+    seats: 5
+    polling_stations: 65
+    registered_voters: 142728
+    parties:
+      - name: PAP
+        sample_count: 76
+      - name: RDU
+        sample_count: 24
+  - name: "Marine Parade–Braddell Heights GRC"
+    seats: 5
+    polling_stations: 62
+    registered_voters: 131789
+    parties:
+      - name: PAP
+        sample_count: 100
+  - name: "Marsiling–Yew Tee GRC"
+    seats: 4
+    polling_stations: 56
+    registered_voters: 119516
+    parties:
+      - name: PAP
+        sample_count: 74
+      - name: SDP
+        sample_count: 26
+  - name: "Nee Soon GRC"
+    seats: 5
+    polling_stations: 68
+    registered_voters: 151836
+    parties:
+      - name: PAP
+        sample_count: 74
+      - name: RDU
+        sample_count: 26
+  - name: "Pasir Ris–Changi GRC"
+    seats: 4
+    polling_stations: 48
+    registered_voters: 100706
+    parties:
+      - name: PAP
+        sample_count: 67
+      - name: SDA
+        sample_count: 33
+  - name: "Punggol GRC"
+    seats: 4
+    polling_stations: 53
+    registered_voters: 123778
+    parties:
+      - name: PAP
+        sample_count: 54
+      - name: WP
+        sample_count: 46
+  - name: "Sembawang GRC"
+    seats: 5
+    polling_stations: 55
+    registered_voters: 134103
+    parties:
+      - name: PAP
+        sample_count: 67
+      - name: SDP
+        sample_count: 31
+      - name: NSP
+        sample_count: 2
+  - name: "Sengkang GRC"
+    seats: 4
+    polling_stations: 60
+    registered_voters: 126808
+    parties:
+      - name: WP
+        sample_count: 56
+      - name: PAP
+        sample_count: 44
+  - name: "Tampines GRC"
+    seats: 5
+    polling_stations: 64
+    registered_voters: 148098
+    parties:
+      - name: PAP
+        sample_count: 53
+      - name: WP
+        sample_count: 46
+      - name: PPP
+        sample_count: 1
+      - name: NSP
+        sample_count: 0
+  - name: "Tanjong Pagar GRC"
+    seats: 5
+    polling_stations: 61
+    registered_voters: 140075
+    parties:
+      - name: PAP
+        sample_count: 81
+      - name: PAR
+        sample_count: 19
+  - name: "West Coast–Jurong West GRC"
+    seats: 5
+    polling_stations: 78
+    registered_voters: 158817
+    parties:
+      - name: PAP
+        sample_count: 61
+      - name: PSP
+        sample_count: 39
+  - name: "Bukit Gombak SMC"
+    seats: 1
+    polling_stations: 11
+    registered_voters: 26418
+    parties:
+      - name: PAP
+        sample_count: 75
+      - name: PSP
+        sample_count: 25
+  - name: "Bukit Panjang SMC"
+    seats: 1
+    polling_stations: 17
+    registered_voters: 33594
+    parties:
+      - name: PAP
+        sample_count: 62
+      - name: SDP
+        sample_count: 38
+  - name: "Hougang SMC"
+    seats: 1
+    polling_stations: 13
+    registered_voters: 29466
+    parties:
+      - name: PAP
+        sample_count: 37
+      - name: WP
+        sample_count: 63
+  - name: "Jalan Kayu SMC"
+    seats: 1
+    polling_stations: 13
+    registered_voters: 29620
+    parties:
+      - name: PAP
+        sample_count: 52
+      - name: WP
+        sample_count: 48
+  - name: "Jurong Central SMC"
+    seats: 1
+    polling_stations: 14
+    registered_voters: 29669
+    parties:
+      - name: PAP
+        sample_count: 81
+      - name: RDU
+        sample_count: 19
+  - name: "Kebun Baru SMC"
+    seats: 1
+    polling_stations: 11
+    registered_voters: 22251
+    parties:
+      - name: PAP
+        sample_count: 66
+      - name: PSP
+        sample_count: 34
+  - name: "Marymount SMC"
+    seats: 1
+    polling_stations: 11
+    registered_voters: 23264
+    parties:
+      - name: PAP
+        sample_count: 71
+      - name: PSP
+        sample_count: 29
+  - name: "Mountbatten SMC"
+    seats: 1
+    polling_stations: 9
+    registered_voters: 22831
+    parties:
+      - name: PAP
+        sample_count: 62
+      - name: Independent
+        sample_count: 38
+  - name: "Pioneer SMC"
+    seats: 1
+    polling_stations: 12
+    registered_voters: 25195
+    parties:
+      - name: PAP
+        sample_count: 66
+      - name: PSP
+        sample_count: 34
+  - name: "Potong Pasir SMC"
+    seats: 1
+    polling_stations: 13
+    registered_voters: 30959
+    parties:
+      - name: PAP
+        sample_count: 71
+      - name: SPP
+        sample_count: 21
+      - name: PAR
+        sample_count: 8
+  - name: "Queenstown SMC"
+    seats: 1
+    polling_stations: 14
+    registered_voters: 28905
+    parties:
+      - name: PAP
+        sample_count: 82
+      - name: PAR
+        sample_count: 18
+  - name: "Radin Mas SMC"
+    seats: 1
+    polling_stations: 13
+    registered_voters: 25559
+    parties:
+      - name: PAP
+        sample_count: 69
+      - name: Independent
+        sample_count: 24
+      - name: PAR
+        sample_count: 7
+  - name: "Sembawang West SMC"
+    seats: 1
+    polling_stations: 12
+    registered_voters: 24192
+    parties:
+      - name: PAP
+        sample_count: 53
+      - name: SDP
+        sample_count: 47
+  - name: "Tampines Changkat SMC"
+    seats: 1
+    polling_stations: 12
+    registered_voters: 24032
+    parties:
+      - name: PAP
+        sample_count: 55
+      - name: WP
+        sample_count: 45
+  - name: "Yio Chu Kang SMC"
+    seats: 1
+    polling_stations: 11
+    registered_voters: 25404
+    parties:
+      - name: PAP
+        sample_count: 76
+      - name: PAR
+        sample_count: 24
