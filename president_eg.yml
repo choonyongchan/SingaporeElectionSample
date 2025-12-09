@@ -1,0 +1,15 @@
+sample_count: 100
+confidence_interval: 0.95
+turnout_rate: 0.9341
+constituencies:
+- name: Singapore
+  seats: 1
+  polling_stations: 1264
+  registered_voters: 2709455
+  parties:
+  - name: Ng Kok Song
+    sample_count: 16
+  - name: Tharman Shanmugaratnam
+    sample_count: 70
+  - name: Tan Kin Lian
+    sample_count: 14

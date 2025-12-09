@@ -16,7 +16,7 @@ popular_vote:
   Independent: 0.005571638926238124
 predicted_next_government: PAP
 update_counter: 33
-last_updated: 1757587806
+last_updated: 1765204682
 constituencies:
 - name: Aljunied GRC
   seats: 5
@@ -35,7 +35,7 @@ constituencies:
     confidence_interval:
     - 0.5785153211957982
     - 0.6014846788042018
-  update_seq: 33
+  update_seq: 1
 - name: Ang Mo Kio GRC
   seats: 5
   polling_stations: 74
@@ -58,8 +58,8 @@ constituencies:
     confidence_interval:
     - 0.1033394200392421
     - 0.1166605799607579
-  update_seq: 1
-- name: Bishan-Toa Payoh GRC
+  update_seq: 2
+- name: "Bishan\u2013Toa Payoh GRC"
   seats: 4
   polling_stations: 48
   registered_voters: 98679
@@ -76,7 +76,7 @@ constituencies:
     confidence_interval:
     - 0.238068737590294
     - 0.261931262409706
-  update_seq: 2
+  update_seq: 3
 - name: Chua Chu Kang GRC
   seats: 4
   polling_stations: 41
@@ -94,7 +94,7 @@ constituencies:
     confidence_interval:
     - 0.35556748840422225
     - 0.38443251159577774
-  update_seq: 3
+  update_seq: 4
 - name: East Coast GRC
   seats: 5
   polling_stations: 52
@@ -112,8 +112,8 @@ constituencies:
     confidence_interval:
     - 0.3968771131196016
     - 0.42312288688039834
-  update_seq: 4
-- name: Holland-Bukit Timah GRC
+  update_seq: 5
+- name: "Holland\u2013Bukit Timah GRC"
   seats: 4
   polling_stations: 54
   registered_voters: 123169
@@ -130,7 +130,7 @@ constituencies:
     confidence_interval:
     - 0.18958099215654095
     - 0.21041900784345907
-  update_seq: 5
+  update_seq: 6
 - name: Jalan Besar GRC
   seats: 4
   polling_stations: 52
@@ -148,8 +148,8 @@ constituencies:
     confidence_interval:
     - 0.2385384902516596
     - 0.2614615097483404
-  update_seq: 6
-- name: Jurong East-Bukit Batok GRC
+  update_seq: 7
+- name: "Jurong East\u2013Bukit Batok GRC"
   seats: 5
   polling_stations: 65
   registered_voters: 142728
@@ -166,8 +166,8 @@ constituencies:
     confidence_interval:
     - 0.22986997945601195
     - 0.25013002054398803
-  update_seq: 7
-- name: Marine Parade-Braddell Heights GRC
+  update_seq: 8
+- name: "Marine Parade\u2013Braddell Heights GRC"
   seats: 5
   polling_stations: 62
   registered_voters: 131789
@@ -179,8 +179,8 @@ constituencies:
     confidence_interval:
     - 1.0
     - 1.0
-  update_seq: 8
-- name: Marsiling-Yew Tee GRC
+  update_seq: 9
+- name: "Marsiling\u2013Yew Tee GRC"
   seats: 4
   polling_stations: 56
   registered_voters: 119516
@@ -197,7 +197,7 @@ constituencies:
     confidence_interval:
     - 0.24879927109490835
     - 0.27120072890509167
-  update_seq: 9
+  update_seq: 10
 - name: Nee Soon GRC
   seats: 5
   polling_stations: 68
@@ -215,8 +215,8 @@ constituencies:
     confidence_interval:
     - 0.2498238230504838
     - 0.27017617694951623
-  update_seq: 10
-- name: Pasir Ris-Changi GRC
+  update_seq: 11
+- name: "Pasir Ris\u2013Changi GRC"
   seats: 4
   polling_stations: 48
   registered_voters: 100706
@@ -233,7 +233,7 @@ constituencies:
     confidence_interval:
     - 0.3170366685479886
     - 0.3429633314520114
-  update_seq: 11
+  update_seq: 12
 - name: Punggol GRC
   seats: 4
   polling_stations: 53
@@ -251,7 +251,7 @@ constituencies:
     confidence_interval:
     - 0.44688866182866643
     - 0.4731113381713336
-  update_seq: 12
+  update_seq: 13
 - name: Sembawang GRC
   seats: 5
   polling_stations: 55
@@ -274,7 +274,7 @@ constituencies:
     confidence_interval:
     - 0.01638099824143816
     - 0.023619001758561842
-  update_seq: 13
+  update_seq: 14
 - name: Sengkang GRC
   seats: 4
   polling_stations: 60
@@ -292,7 +292,7 @@ constituencies:
     confidence_interval:
     - 0.4277574601575298
     - 0.4522425398424702
-  update_seq: 14
+  update_seq: 15
 - name: Tampines GRC
   seats: 5
   polling_stations: 64
@@ -320,7 +320,7 @@ constituencies:
     confidence_interval:
     - 0.0
     - 0.0
-  update_seq: 15
+  update_seq: 16
 - name: Tanjong Pagar GRC
   seats: 5
   polling_stations: 61
@@ -338,8 +338,8 @@ constituencies:
     confidence_interval:
     - 0.18038413554566066
     - 0.19961586445433935
-  update_seq: 16
-- name: West Coast-Jurong West GRC
+  update_seq: 17
+- name: "West Coast\u2013Jurong West GRC"
   seats: 5
   polling_stations: 78
   registered_voters: 158817
@@ -356,7 +356,7 @@ constituencies:
     confidence_interval:
     - 0.3794599511548952
     - 0.4005400488451048
-  update_seq: 17
+  update_seq: 18
 - name: Bukit Gombak SMC
   seats: 1
   polling_stations: 11
@@ -374,7 +374,7 @@ constituencies:
     confidence_interval:
     - 0.22497946157300552
     - 0.2750205384269945
-  update_seq: 18
+  update_seq: 19
 - name: Bukit Panjang SMC
   seats: 1
   polling_stations: 17
@@ -392,7 +392,7 @@ constituencies:
     confidence_interval:
     - 0.3575511049866041
     - 0.4024488950133959
-  update_seq: 19
+  update_seq: 20
 - name: Hougang SMC
   seats: 1
   polling_stations: 13
@@ -410,7 +410,7 @@ constituencies:
     confidence_interval:
     - 0.6043730897262035
     - 0.6556269102737965
-  update_seq: 20
+  update_seq: 21
 - name: Jalan Kayu SMC
   seats: 1
   polling_stations: 13
@@ -428,7 +428,7 @@ constituencies:
     confidence_interval:
     - 0.45347821750422856
     - 0.5065217824957714
-  update_seq: 21
+  update_seq: 22
 - name: Jurong Central SMC
   seats: 1
   polling_stations: 14
@@ -446,7 +446,7 @@ constituencies:
     confidence_interval:
     - 0.16996851177300218
     - 0.21003148822699783
-  update_seq: 22
+  update_seq: 23
 - name: Kebun Baru SMC
   seats: 1
   polling_stations: 11
@@ -464,7 +464,7 @@ constituencies:
     confidence_interval:
     - 0.3127460466929306
     - 0.36725395330706945
-  update_seq: 23
+  update_seq: 24
 - name: Marymount SMC
   seats: 1
   polling_stations: 11
@@ -482,7 +482,7 @@ constituencies:
     confidence_interval:
     - 0.2638623623729329
     - 0.31613763762706704
-  update_seq: 24
+  update_seq: 25
 - name: Mountbatten SMC
   seats: 1
   polling_stations: 9
@@ -500,7 +500,7 @@ constituencies:
     confidence_interval:
     - 0.3489551215883987
     - 0.4110448784116013
-  update_seq: 25
+  update_seq: 26
 - name: Pioneer SMC
   seats: 1
   polling_stations: 12
@@ -518,7 +518,7 @@ constituencies:
     confidence_interval:
     - 0.3138800591632568
     - 0.36611994083674326
-  update_seq: 26
+  update_seq: 27
 - name: Potong Pasir SMC
   seats: 1
   polling_stations: 13
@@ -541,7 +541,7 @@ constituencies:
     confidence_interval:
     - 0.06558299318694888
     - 0.09441700681305112
-  update_seq: 27
+  update_seq: 28
 - name: Queenstown SMC
   seats: 1
   polling_stations: 14
@@ -559,7 +559,7 @@ constituencies:
     confidence_interval:
     - 0.16039638983323984
     - 0.19960361016676015
-  update_seq: 28
+  update_seq: 29
 - name: Radin Mas SMC
   seats: 1
   polling_stations: 13
@@ -582,7 +582,7 @@ constituencies:
     confidence_interval:
     - 0.056507628942540036
     - 0.08349237105745998
-  update_seq: 29
+  update_seq: 30
 - name: Sembawang West SMC
   seats: 1
   polling_stations: 12
@@ -600,7 +600,7 @@ constituencies:
     confidence_interval:
     - 0.44251028655662095
     - 0.497489713443379
-  update_seq: 30
+  update_seq: 31
 - name: Tampines Changkat SMC
   seats: 1
   polling_stations: 12
@@ -618,7 +618,7 @@ constituencies:
     confidence_interval:
     - 0.42260374845790116
     - 0.47739625154209886
-  update_seq: 31
+  update_seq: 32
 - name: Yio Chu Kang SMC
   seats: 1
   polling_stations: 11
@@ -636,4 +636,4 @@ constituencies:
     confidence_interval:
     - 0.2153447426023476
     - 0.2646552573976524
-  update_seq: 32
+  update_seq: 33
