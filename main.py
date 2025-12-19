@@ -4,7 +4,6 @@ import time
 import scipy.stats as st
 from typing import Any, Dict, List, Tuple
 
-
 def _require_keys(d: Dict[str, Any], keys: List[str], context: str) -> None:
     """Validate that a dict contains the listed keys.
 

@@ -4,7 +4,7 @@ Make statistically reliable predictions about the election using only Sample Cou
 
 > Disclaimer: This project is only for educational purposes. The derived results should not be counted as authoritative data.
 
-![image](./Sample.png)
+![image](./docs/Sample.png)
 
 ---
 
